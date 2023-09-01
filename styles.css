@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.header {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.header-imagem {
+    height: 72px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.header-menu-item {
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    margin: 0 20px;
+    transition: color 0.3s ease;
+}
+
+.header-menu a:hover {
+    color: #3f3d56;
+}
+
+.descricao {
+    color: grey;
+    font-size: 100%;
+}
+
+main {
+    padding: 20px;
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 22rem;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.sobre > * {
+    margin: 0;
+}
+
+.sobre img {
+    animation: moveUp 2.5s ease infinite;
+    max-width: 60%;
+    height: auto;
+}
+
+.container {
+    margin-left: 100px;
+    text-align: left;
+}
+
+.sobre h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+.sobre h1,
+.sobre h2,
+.sobre h4 {
+    margin: 0;
+    text-align: left;
+}
+
+.projeto-text {
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.projeto-text h2 {
+    font-size: 40px;
+    margin-top: 10rem;
+}
+
+.projeto-text img {
+    animation: moveUp 2.5s ease infinite;
+    max-width: 50%;
+    height: auto;
+}
+
+.projeto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.projeto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.projeto h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.projeto p {
+    font-size: 16px;
+    color: #555;
+}
+
+.projeto a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.projeto a:hover {
+    transform: scale(1.05);
+}
+
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contato {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contato h2 {
+    font-size: 30px;
+    color: #333;
+}
+
+.contato p {
+    font-size: 20px;
+    color: #666;
+}
+
+.contatoimg {
+    animation: moveUp 4s ease infinite;
+    max-width: 20%;
+    height: auto;
+}
+
+.icones {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-menu {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .header-menu a {
+        margin: 0;
+    }
+
+    .header-imagem {
+        margin-bottom: 10px;
+    }
+
+    .descricao {
+        color: grey;
+        font-size: 100%;
+    }
+
+    .sobre {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        gap: 30px;
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .sobre img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .sobre h1 {
+        font-size: 24px;
+    }
+
+    .sobre h3 {
+        line-height: 1;
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    .sobre h2 {
+        font-size: 16px;
+    }
+
+    .sobre h4 {
+        font-size: 14px;
+    }
+
+    .projeto-text {
+        margin-top: 5rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .projeto-text h2 {
+        font-size: 28px;
+        margin-top: 1rem;
+    }
+
+    .projeto-text img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .projeto {
+        max-width: 100%;
+    }
+
+    .projeto h3 {
+        font-size: 18px;
+    }
+
+    .projeto p {
+        font-size: 14px;
+    }
+
+    .contato h2 {
+        font-size: 25px;
+        color: #333;
+    }
+
+    .contato p {
+        font-size: 20px;
+        color: #666;
+    }
+
+    .contatoimg {
+        animation: moveUp 4s ease infinite;
+        max-width: 45%;
+        height: auto;
+    }
+}
