@@ -6,6 +6,7 @@ This is my personal portfolio, where I showcase most of my projects.
 
 ## 🤳 Preview
 <p> <img alt="Web" src="https://github.com/eumorales/eumorales/blob/main/preview/portfolio-web.png" /></p>
+
 ###### https://gilbertomorales.com
 
 ## ✍ Languages used
