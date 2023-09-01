@@ -247,7 +247,7 @@ a {
         margin-left: 1rem;
         gap: 30px;
         text-align: center;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .sobre img {
