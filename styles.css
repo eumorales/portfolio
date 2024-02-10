@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -8,6 +12,7 @@ body {
     animation: fadeIn 1s ease-in-out;
     animation-fill-mode: forwards;
 }
+
 
 @keyframes fadeIn {
     0% {
@@ -57,6 +62,16 @@ body {
 .descricao {
     color: grey;
     font-size: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente os itens dentro do container */
+    margin-top: 10px; /* Adiciona espaço entre os botões e o conteúdo acima */
+}
+
+.botoes {
+    margin: 0 5px; /* Adiciona um pequeno espaço entre os botões */
 }
 
 main {
