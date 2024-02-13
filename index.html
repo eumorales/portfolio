@@ -2,22 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>WIP - Comming Soon!</title>
-    <style>
-        body {
-            background: #121212;
-            color: #FFFFFF;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            height: 100vh;
-            overflow: hidden;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilberto Morales - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="icones/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icones/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icones/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icones/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icones/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icones/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icones/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icones/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icones/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icones/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icones/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icones/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icones/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="description" content="Portfólio criado para divulgar projetos pessoais.">
+
+
 </head>
 <body>
-<h1>WIP</h1>
+    <header class="header" id="sobre">
+        <span style="color: black; font-size: 120%; font-weight: bold;">gilbertomorales.</span>
+        <nav class="header-menu">
+            <a href="#sobre">Home</a>
+            <a href="#projetos">Projects</a>
+            <a href="#contato">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="sobre">
+            <div>
+                <h1>Hi, I'm <strong>Gilberto</strong>.</h1>
+                <h4>Fullstack Developer</h4>
+                <h3 class="descricao">"I'm a fullstack developer focused on website development, <p>constantly seeking new ways to enhance my skills."</h3>
+            </div>
+            <container>
+                <img id="sobre-img" src="assets/sobre.svg" alt="Sobre">
+            </container>
+        </div>
+        <div class="projeto-text">
+            <h2>Some projects</h2>
+            <img id="sobre-img" src="assets/projetos.svg" alt="Sobre">
+        </div>
+        <div class="projetos" id="projetos">
+            <div class="projeto">
+                <a href="https://github.com/eumorales/linktree" target="_blank">
+                    <img src="preview/linktree-web.png" alt="Projeto 1">
+                    <h3>Linktree</h3>
+                    <p>🌳 The application consists of a simple link tree for personal use.</p>
+                </a>
+                
+                <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
+                <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
+                <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1" alt="JavaScript">
+                <div class="buttons">
+                    <a href="https://linktree.gilbertomorales.com" target="_blank" class="botoes">Site 🌐</a> |
+                    <a href="https://github.com/eumorales/linktree" target="_blank" class="botoes">Github ☕</a>  
+
+                </div>
+            </div>
+
+            <div class="projeto">
+                <a href="https://github.com/eumorales/dog" target="_blank">
+                    <img src="preview/dog-web.png" alt="Projeto 1">
+                    <h3>Dog</h3>
+                    <p>🐶 A web app for random dog images.</p>
+                </a>
+                
+                <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
+                <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
+                <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1" alt="JavaScript">
+                <div class="buttons">
+                    <a href="https://cachorro.gilbertomorales.com" target="_blank" class="botoes">Site 🌐</a> |
+                    <a href="https://github.com/eumorales/dog" target="_blank" class="botoes">Github ☕</a> 
+                </div>
+            </div>
+            
+            
+        </div>
+    </main>
+    <footer>
+        <div class="contato" id="contato">
+
+
+            <img src="assets/contact.svg" alt="Sobre" class="contatoimg">
+            <h2>Reach me</h2>
+
+            <a href="https://replit.com/@eumorales" target="_blank">
+                <img src="assets/replit.svg" alt="Replit" class="icones">
+            </a>
+
+
+            <a href="https://github.com/eumorales" target="_blank">
+                <img src="assets/github.svg" alt="Github" class="icones">
+            </a>
+
+
+            <a href="https://discordapp.com/users/326856520799223808" target="_blank">
+                <img src="assets/discord.svg" alt="Discord" class="icones">
+            </a>
+
+
+
+
+        </div>
+    </footer>
 </body>
 </html>
